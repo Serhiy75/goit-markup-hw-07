@@ -143,6 +143,7 @@ body{
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
     color: var(--main-color);
 }
@@ -160,10 +161,12 @@ body{
 }
 
 /* 
-.team-list {}
+.team-list {} */
 
 
-.team-item {} */
+.team-item {
+    background-color: var(--body-color);
+}
 
 /* Footer */
 
