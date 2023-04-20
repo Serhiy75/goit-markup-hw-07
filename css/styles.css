@@ -97,6 +97,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-color);
+    padding: 24px 0 24px;
 }
 .navbar-link:hover,
 .navbar-link:focus {
@@ -264,10 +265,18 @@ padding-bottom: 120px;
 
 .footer-logo {
     display: inline-block;
-    color: var(--light-mode-bg);
     margin-bottom: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--noactive-btn);
 }
-
+.footer-logo-studio{
+    color: var(--light-mode-bg);
+}
 .footer-descr {
     font-weight: 400;
     font-size: 16px;
