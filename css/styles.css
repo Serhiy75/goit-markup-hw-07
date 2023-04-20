@@ -89,7 +89,7 @@ body{
     padding: 24px 0 24px;
 }
 
-.navbar-item {} 
+/* .navbar-item {}  */
 
 .navbar-link {
     font-weight: 500;
@@ -227,7 +227,7 @@ padding-bottom: 120px;
 
 
 
-.services-item {} 
+/* .services-item {}  */
 
 /* Our team */
 
@@ -291,7 +291,7 @@ padding-bottom: 120px;
     margin-bottom: 72px;
 }
 
-.btn-item {}
+/* .btn-item {} */
 
 .buttons {
     padding: 12px 24px;
