@@ -86,7 +86,7 @@ body{
 .navbar-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0 24px;
+    padding: 24px 0 24px; 
 }
 
 /* .navbar-item {}  */
@@ -114,6 +114,9 @@ body{
     gap: 40px;
 } 
 
+/* .address-item */
+
+
 .address-link {
     font-weight: 400;
     font-size: 16px;
@@ -126,6 +129,8 @@ body{
 .address-link:focus{
     color: var(--active-color);
 }
+
+
 
 /* Hero */
 
