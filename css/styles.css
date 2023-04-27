@@ -403,7 +403,13 @@ padding-bottom: 120px;
 }
 .footer-container {
     display: flex;
-    gap: 120px;
+    
+}
+.footer-logo-container{
+    margin-right: 120px;
+}
+.footer-media-container{
+    align-items: baseline;
 }
    
 
