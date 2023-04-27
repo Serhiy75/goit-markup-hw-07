@@ -57,6 +57,7 @@ body{
 .header {
     align-items: center;
     border-bottom: 1px solid var(--subtle-backgrounds);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .logo {
@@ -138,6 +139,9 @@ body{
     max-width: 1440px;
     margin: 0 auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/herobg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-clip: padding-box;
     background-color: var(--main-color);
     padding-top: 188px;
@@ -202,6 +206,7 @@ padding-bottom: 120px;
     background-color: var(--light-mode-bg);
     height: 112px;
     margin-bottom: 8px;
+    border-radius: 4px;
 }
 
 .subtitle {
@@ -269,7 +274,7 @@ padding-bottom: 120px;
 }
 .team-text{
     text-align: center;
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team-social-list {
@@ -314,6 +319,9 @@ padding-bottom: 120px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.customers-title{
+    line-height: 1.1;
+}
 
 
 
@@ -338,18 +346,20 @@ padding-bottom: 120px;
     align-items: center;
     border: 1px solid var(--helper-text);
     border-radius: 4px;
+    color: #8e8f99;
     width: 100%;
     height: 100%;
 }
 .customers-link:hover,
 .customers-link:focus{
+    color: #404bbf;
     border-color: var(--active-color);
 }
 
 
 
 .customer-icon {
-    fill: var(--helper-text);
+    fill: currentColor;
 }
 
 .customers-link:hover .customer-icon,
@@ -393,24 +403,24 @@ padding-bottom: 120px;
 }
 .footer-container {
     display: flex;
+    gap: 120px;
 }
-.footer-media-container {
-    margin-left: 120px;
+   
 
-}
+
 
 .footer-descr-media {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--light-mode-bg);
+    color: var(--body-color);
     margin-bottom: 16px;
 }
 
 .footer-list {
     display: flex;
-    flex-direction: row;
+    align-items: baseline;
     gap: 16px;
 }
 
@@ -489,8 +499,8 @@ padding-bottom: 120px;
 .photo-item {
     border-color: var(--body-color);
 }
-.photo-item:hover,
-.photo-item:focus {
+.photo-link:hover,
+.photo-link:focus {
     box-shadow: 0px 2px 1px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229, 0px 1px 6px 0px #2E2F4214;
 }
 
@@ -500,7 +510,9 @@ padding-bottom: 120px;
     border-top: none;
 }
 
-
+.photo-link {
+    display: block;
+}
 /* Visually-Hidden */
 
 /* .visually-hidden {
