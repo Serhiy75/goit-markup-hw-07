@@ -286,12 +286,6 @@ padding-bottom: 120px;
 
 
 
-.team-social-item {
-
-}
-
-
-
 
 .team-social-link {
     display: flex;
@@ -404,7 +398,6 @@ padding-bottom: 120px;
 .footer-container {
     display: flex;
     align-items: baseline;
-    
 }
 .footer-logo-container{
     margin-right: 120px;
