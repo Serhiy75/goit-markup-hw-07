@@ -1,0 +1,154 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .header {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+
+    .sub-container{
+        width: 552px;
+    }
+
+    body{
+        margin: 0;
+    }
+
+
+    .header-container{
+        display: flex;
+        gap: 121px;
+    }
+    .navbar {
+        gap: 121px;
+    }
+
+    .navbar-list {
+        display: flex;
+    }
+
+    .header-logo {
+        margin-right: 0;
+    }
+    .address {
+        display: flex;
+    }
+    .address-list {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .address-link{
+        font-size: 12px;
+        line-height: 1.33;
+    }
+   
+    .services {
+        display: none;
+    }
+    .hero {
+        width: 100%;
+        background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background/tablet_bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 112px;
+        padding-bottom: 108px;
+    }
+    .hero-title {
+        width: 496px;
+        font-size: 56px;
+    }
+
+    .features-container{
+        min-width: 736px;
+    }
+    .features-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .features-item {
+        display: flex;
+        width: calc((100% - 24px) / 2);
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .team {
+        padding: 96px;
+        padding-bottom: 104px;
+    }
+    .team-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .team-list {
+        row-gap: 72px;
+        column-gap: 24px;
+    }
+
+    .team-item{
+        width: calc((100% - 24px) / 2);
+    }
+
+    .team-text {
+        padding: 32px 16px;
+    }
+
+    .customers-list {
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+    .customers-item {
+        width: calc((100% - 48px) / 3);
+    }
+
+    .modal {
+        width: 408px;
+    }
+    .mobile-menu {
+        display: none;
+    }
+    .menu-open {
+        display: none;
+    }
+    .footer {
+        padding: 96px 0;
+
+    }
+    .footer-logo-container {
+        align-items: start;
+    }
+    .footer-tablet-container{
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+    .subscribe {
+        width: 453px;
+        height: 80px;
+        align-items: left;
+    }
+    .subscribe-form {
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+        gap: 24px;
+    }
+    .footer-subscribe{
+        text-align: left;
+    }
+    .footer-media-container{
+        align-items: start;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1199px),
+    screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1199px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1199px) {
+        .hero {
+            width: 100%;
+            background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background/tablet_bg@2x.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+}
