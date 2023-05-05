@@ -72,6 +72,8 @@
         flex-direction: column;
     }
     
+
+
     .team {
         padding: 96px;
         padding-bottom: 104px;
@@ -133,6 +135,9 @@
         flex-direction: row;
         height: 40px;
         gap: 24px;
+    }
+    .footer-descr {
+        margin-bottom: 0;
     }
     .footer-subscribe{
         text-align: left;

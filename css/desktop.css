@@ -92,6 +92,9 @@
         flex-direction: row;
         gap: 80px;
     }
+    .footer-descr {
+        margin-bottom: 0;
+    }
     .footer-tablet-container {
         display: flex;
         flex-direction: row;
