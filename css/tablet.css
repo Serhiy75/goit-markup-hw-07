@@ -1,11 +1,11 @@
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
     .header {
         padding-top: 0;
         padding-bottom: 0;
         padding-left: 0;
     }
 
-    .sub-container{
+    .sub-container {
         width: 552px;
     }
 
@@ -14,7 +14,7 @@
     }
 
 
-    .header-container{
+    .header-container {
         display: flex;
         gap: 121px;
     }
@@ -33,7 +33,7 @@
         display: flex;
     }
     .address-list {
-        flex-direction: column;
+        flex-direction: column; 
         gap: 12px;
     }
 
@@ -141,9 +141,9 @@
         align-items: start;
     }
 
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1199px),
-    screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1199px),
-    screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1199px) {
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1157px),
+    screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1157px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1157px) {
         .hero {
             width: 100%;
             background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background/tablet_bg@2x.jpg);

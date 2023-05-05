@@ -1,0 +1,139 @@
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        margin: 0 auto;
+    }
+    .header {
+        padding-top: 0;
+        padding-bottom: 0;
+
+    }
+    .header-container {
+        align-items: center;
+        margin: 0 auto;
+    }
+    .navbar {
+        gap: 76px;
+
+    }
+    .navbar-list {
+        display: flex;
+    }
+    .address {
+        display: flex;
+    }
+    .menu-open {
+        display: none;
+    }
+    .hero {
+        padding-bottom: 188px;
+        padding-top: 188px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background/desktop_bg.jpg);
+
+    }
+    .hero-title {
+        width: 496px;
+        font-size: 56px;
+    }
+    .features {
+        padding-top: 120px;       
+    }
+    .features-list {
+        flex-direction: row;
+        gap: 24px;
+    }
+    .features-subtitle {
+        text-align: start;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;     
+    }
+    .features-descr {
+        width: 264px;
+        font-weight: 400;  
+    }
+    .features-item-icon {
+        display: flex;
+        width: 264px;
+    }
+    .services {
+        display: flex;
+    }
+    .team {
+        padding-top: 120px;
+    }
+    .team-title {
+        width: 163px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .team-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+    .team-item {
+        width: 264px;
+    }
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .customers-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+    .customers-item {
+        width: calc((100% - 120px) / 6);
+    }
+    .footer {
+        padding: 100px 0;
+    }
+    .footer-container {
+        flex-direction: row;
+        gap: 80px;
+    }
+    .footer-tablet-container {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        gap: 120px;
+    }
+    .footer-logo-container {
+        align-items: start;
+    }
+    .footer-media-container {
+        align-items: start;
+    }
+        
+
+    .footer-subscribe {
+        text-align: left;
+    }
+    .subscribe-form {
+        flex-direction: row;
+        gap: 0;
+    }
+    .email {
+        margin-right: 24px;
+        width: 264px;
+        height: 40px;
+    }
+    .modal {
+        width: 408px;
+    }
+    .mobile-menu{
+        display: none;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+    screen and (min-resolution: 192dpi) and (min-width: 1158px),
+    screen and (min-resolution: 2dppx) and (min-width: 1158px) {
+        .hero {
+            width: 100%;
+            background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background/desktop_bg@2x.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }   
+}
+    
