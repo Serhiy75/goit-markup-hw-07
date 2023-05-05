@@ -71,7 +71,13 @@
         align-items: flex-start;
         flex-direction: column;
     }
-    
+   .photo-list {
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       align-items: center;
+       gap: 48px 24px;
+   }
 
 
     .team {

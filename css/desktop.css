@@ -1,6 +1,6 @@
 @media screen and (min-width: 1158px) {
     .container {
-        max-width: 1158px;
+        min-width: 1158px;
         margin: 0 auto;
     }
     .header {
@@ -39,6 +39,9 @@
         padding-top: 120px;       
     }
     .features-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: row;
         gap: 24px;
     }
@@ -74,6 +77,13 @@
     .team-item {
         width: 264px;
     }
+   .photo-list {
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       align-items: center;
+       gap: 48px 24px;
+   }
     .customers {
         padding-top: 120px;
         padding-bottom: 120px;

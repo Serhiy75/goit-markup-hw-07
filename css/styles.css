@@ -965,6 +965,9 @@ padding-bottom: 120px;
 .mobile-menu-item:not(:last-child) {
     margin-bottom: 24px;
 }
+.hamb{
+    display: block;
+}
 
 .mobile-menu-link {
     font-weight: 700;
@@ -985,7 +988,7 @@ padding-bottom: 120px;
 
 
 .menu-middle-content {
-    margin-top: 200px;
+
     margin-bottom: 48px;
 }
 
